@@ -1,4 +1,5 @@
 ### Contents
+- [Tl;dr](#tl-dr)
 - [About NFS: World](#about-nfs-world)
 - [About This Program](#about-this-program)
 - [Features](#features)
@@ -8,6 +9,18 @@
 - [NFS World Server Emulator Setup](#nfs-world-server-emulator-setup)
 - [Credits](#credits)
 
+# Tl;dr
+To play Need for Speed: World offline, you need:
+- original game files
+- Zenity to find and pick nfsw.exe file
+- Wine to run the game
+- this repository to start offline server
+Run.sh should handle these dependencied automatically. Download the repository and execute it:
+```
+chmod +x run.sh
+./run.sh
+```
+Follow further instructions in command-line.
 # About NFS: World
 Need for Speed: World is the 15th game in the Need for Speed franchise. It was a free-to-play, massively multiplayer online racing game released exclusively for Windows. Officially launched on July 27, 2010 then shut down on July 14, 2015. It was an online-only game that combined elements from previous titles in the series such as NFS: Most Wanted (2005) and NFS: Carbon. It focused on illegal street racing, car tuning, and police chases. The game was set in Tri-Cities, a map that connected the metropolises of Rockport from NFS: Most Wanted (2005) and Palmont City from NFS: Carbon.
 
