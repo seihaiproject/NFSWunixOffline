@@ -14,10 +14,10 @@ To play Need for Speed: World offline, you need:
 - original game files
 - Zenity to find and pick nfsw.exe file
 - Wine to run the game
-- Node.js
+- Node.js and npm
 - this repository to start offline server
 
-Run.sh should handle these dependencied automatically. Download the repository and execute it:
+Run.sh should handle these dependencies automatically (except the game files). Download the repository and execute it:
 ```
 chmod +x run.sh
 ./run.sh
