@@ -1,4 +1,4 @@
 
 /node_modules
 /drivers/driver*
-/config/config.json
+config/config.json
