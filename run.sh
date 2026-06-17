@@ -39,9 +39,26 @@ install_packages() {
 
     elif check_command dnf; then
         sudo dnf install -y "${packages[@]}"
-
     else
-        echo "Unsupported package manager."
+        echo
+        echo "ERROR: No supported package manager detected."
+        echo
+        echo "This script supports automatic dependency installation only for:"
+        echo "  - Arch Linux (pacman)"
+        echo "  - Debian/Ubuntu (apt)"
+        echo "  - Fedora (dnf)"
+        echo
+        echo "You will need to install the following dependencies manually:"
+        echo
+        echo "System packages:"
+        echo "  - wine"
+        echo "  - zenity"
+        echo "  - util-linux (for taskset)"
+        echo "  - nodejs"
+        echo "  - npm"
+        echo
+        echo "After installing them, re-run this script."
+        echo
         exit 1
     fi
 }
@@ -113,7 +130,25 @@ elif check_command dnf; then
     check_command npm || packages+=("npm")
 
 else
-    echo "Unsupported distribution."
+    echo
+    echo "ERROR: No supported package manager detected."
+    echo
+    echo "This script supports automatic dependency installation only for:"
+    echo "  - Arch Linux (pacman)"
+    echo "  - Debian/Ubuntu (apt)"
+    echo "  - Fedora (dnf)"
+    echo
+    echo "You will need to install the following dependencies manually:"
+    echo
+    echo "System packages:"
+    echo "  - wine"
+    echo "  - zenity"
+    echo "  - util-linux (for taskset)"
+    echo "  - nodejs"
+    echo "  - npm"
+    echo
+    echo "After installing them, re-run this script."
+    echo
     exit 1
 fi
 
