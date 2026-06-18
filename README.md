@@ -23,6 +23,8 @@ chmod +x run.sh
 ./run.sh
 ```
 Follow further instructions in command-line.
+# About this fork
+I wanted to play NFS World on Linux but apparently offline server emulator I found didn't support Linux, the play command simply didn't allow to run nfsw.exe because it checked if the running system is win32 albeit server did launch. I rewrote the play.js file with chatgeepeetee for Linux and replaced start.bat with run.sh.
 # About NFS: World
 Need for Speed: World is the 15th game in the Need for Speed franchise. It was a free-to-play, massively multiplayer online racing game released exclusively for Windows. Officially launched on July 27, 2010 then shut down on July 14, 2015. It was an online-only game that combined elements from previous titles in the series such as NFS: Most Wanted (2005) and NFS: Carbon. It focused on illegal street racing, car tuning, and police chases. The game was set in Tri-Cities, a map that connected the metropolises of Rockport from NFS: Most Wanted (2005) and Palmont City from NFS: Carbon.
 
