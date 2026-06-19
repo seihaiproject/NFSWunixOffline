@@ -22,7 +22,7 @@ Run.sh should handle these dependencies automatically (except the game files). D
 chmod +x run.sh
 ./run.sh
 ```
-Follow further instructions in command-line.
+After server is started, type play in terminal to play the game. If you didn't set path to nsfw.exe, you will be prompted to do that with file manager.
 # About this fork
 I wanted to play NFS World on Linux but apparently offline server emulator I found didn't support Linux, the play command simply didn't allow to run nfsw.exe because it checked if the running system is win32 albeit server did launch. I rewrote the play.js file with chatgeepeetee for Linux and replaced start.bat with run.sh.
 # About NFS: World
